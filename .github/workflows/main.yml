@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use Issue Management Action
-        uses: sammychinedu2ky/issue-man@main
+        uses: mlh-fellowship/mlh-issue-man@main
         with:
           myToken: '${{ secrets.GITHUB_TOKEN }}'
           key: '${{secrets.KEY}}'
